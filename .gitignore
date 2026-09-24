@@ -1,0 +1,13 @@
+# Dependencies
+**/node_modules/
+
+# Angular build output and caches
+**/dist/
+**/.angular/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+
+# Preserved metadata from an old nested Git repository
+**/.git-local-backup/

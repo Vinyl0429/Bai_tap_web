@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 18 Pro Max",
+    "price": 999,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQpT2m28xgFxFy55Ffn_KUViFAeZPPpA2FfaMhTc6FUsOTbgjX9wB6PGSZmsxJJOm2Lrqp0cVJC9aDTT3D_l63zvpF_quFBf1chLlH-RL-mTa1zUivE1Myt0xvFh7uVDP8JEhTNr9Y&usqp=CAc"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy Z Fold 7",
+    "price": 699,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQpT2m28xgFxFy55Ffn_KUViFAeZPPpA2FfaMhTc6FUsOTbgjX9wB6PGSZmsxJJOm2Lrqp0cVJC9aDTT3D_l63zvpF_quFBf1chLlH-RL-mTa1zUivE1Myt0xvFh7uVDP8JEhTNr9Y&usqp=CAc"
+  },
+  {
+    "id": 3,
+    "name": "Macbook Pro M5",
+    "price": 399,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQpT2m28xgFxFy55Ffn_KUViFAeZPPpA2FfaMhTc6FUsOTbgjX9wB6PGSZmsxJJOm2Lrqp0cVJC9aDTT3D_l63zvpF_quFBf1chLlH-RL-mTa1zUivE1Myt0xvFh7uVDP8JEhTNr9Y&usqp=CAc"
+  },
+  {
+    "id": 4,
+    "name": "iPhone Duo",
+    "price": -599,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQpT2m28xgFxFy55Ffn_KUViFAeZPPpA2FfaMhTc6FUsOTbgjX9wB6PGSZmsxJJOm2Lrqp0cVJC9aDTT3D_l63zvpF_quFBf1chLlH-RL-mTa1zUivE1Myt0xvFh7uVDP8JEhTNr9Y&usqp=CAc"
+  },
+  {
+    "id": 5,
+    "name": "iPhone 17",
+    "price": 399,
+    "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQpT2m28xgFxFy55Ffn_KUViFAeZPPpA2FfaMhTc6FUsOTbgjX9wB6PGSZmsxJJOm2Lrqp0cVJC9aDTT3D_l63zvpF_quFBf1chLlH-RL-mTa1zUivE1Myt0xvFh7uVDP8JEhTNr9Y&usqp=CAc"
+  }
+]

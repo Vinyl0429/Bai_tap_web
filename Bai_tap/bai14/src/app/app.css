@@ -1,0 +1,11 @@
+.app-header {
+  padding: 18px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font:
+    700 1.5rem Arial,
+    sans-serif;
+}

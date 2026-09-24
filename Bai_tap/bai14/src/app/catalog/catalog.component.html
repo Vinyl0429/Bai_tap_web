@@ -1,0 +1,39 @@
+<main class="catalog-page">
+  <h1>Danh mục sản phẩm</h1>
+
+  <section *ngFor="let category of categories" class="category-card">
+    <table class="category-table">
+      <thead>
+        <tr>
+          <th>Mã danh mục</th>
+          <th>Tên danh mục</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ category.Cateid }}</td>
+          <td>{{ category.CateName }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>Mã sản phẩm</th>
+          <th>Tên sản phẩm</th>
+          <th>Giá sản phẩm</th>
+          <th>Hình ảnh</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of category.Products">
+          <td>{{ product.ProductId }}</td>
+          <td>{{ product.ProductName }}</td>
+          <td>{{ product.Price }}</td>
+          <td><img [src]="product.Image" [alt]="product.ProductName" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>

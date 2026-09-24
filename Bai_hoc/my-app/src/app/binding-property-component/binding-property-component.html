@@ -1,0 +1,21 @@
+<p>binding-property-component works!</p>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>
+            <input type="text" [value]="name" [disabled]="isDisabled">
+        </td>
+    </tr>
+
+    <tr>
+        <td>Email</td>
+        <td>
+            <input type="text" [value]="email" disabled="{{isDisabled}}">
+        </td>
+    </tr>
+</table>
+<!-- {{ hello }} là Interpolation — lấy giá trị biến hello trong component rồi hiển thị thành chữ trên HTML. -->
+{{hello}} 
+
+<!-- Còn [hello] là Property Binding. Nó không có nghĩa là “in biến hello ra màn hình”, mà là gán một giá trị vào property/input tên hello của một thẻ hoặc component. -->
+[hello] 

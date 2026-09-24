@@ -1,0 +1,20 @@
+.catalog-page {
+  width: 475px;
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 2px;
+}
+
+img {
+  width: 140px;
+  height: 135px;
+  object-fit: contain;
+}

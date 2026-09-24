@@ -1,0 +1,18 @@
+<section class="detail-page">
+  <h1>Chi tiết sản phẩm</h1>
+
+  <div *ngIf="selectedProduct; else notFound" class="product-card">
+    <img [src]="selectedProduct.Image" [alt]="selectedProduct.ProductName" />
+    <table>
+      <tr><th>ID</th><td>{{ selectedProduct.ProductId }}</td></tr>
+      <tr><th>Name</th><td>{{ selectedProduct.ProductName }}</td></tr>
+      <tr><th>Price</th><td>{{ selectedProduct.Price }}</td></tr>
+    </table>
+  </div>
+
+  <ng-template #notFound>
+    <p>Không tìm thấy sản phẩm.</p>
+  </ng-template>
+
+  <button type="button" (click)="goBack()">Go Back</button>
+</section>

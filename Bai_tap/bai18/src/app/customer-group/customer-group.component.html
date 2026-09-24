@@ -1,0 +1,43 @@
+<main class="customer-page">
+  <h1>Danh sách khách hàng theo nhóm</h1>
+
+  <p *ngIf="errMessage()" class="error-message" role="alert">{{ errMessage() }}</p>
+
+  <section *ngFor="let customerType of customerTypes()" class="customer-type-card">
+    <table class="type-table">
+      <thead>
+        <tr>
+          <th>Mã loại khách hàng</th>
+          <th>Tên loại khách hàng</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ customerType.CustomerTypeId }}</td>
+          <td>{{ customerType.CustomterTypeName }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table class="customer-table">
+      <thead>
+        <tr>
+          <th>Mã khách hàng</th>
+          <th>Tên khách hàng</th>
+          <th>Email</th>
+          <th>Tuổi</th>
+          <th>Ảnh đại diện</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let customer of customerType.Customers">
+          <td>{{ customer.Id }}</td>
+          <td>{{ customer.Name }}</td>
+          <td>{{ customer.Email }}</td>
+          <td>{{ customer.Age }}</td>
+          <td><img [src]="customer.Image" [alt]="customer.Name" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>

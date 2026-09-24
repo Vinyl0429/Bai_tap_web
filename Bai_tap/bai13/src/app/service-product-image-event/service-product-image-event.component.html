@@ -1,0 +1,33 @@
+<section class="product-page">
+  <h1>Danh sách sản phẩm</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Mã sản phẩm</th>
+        <th>Tên sản phẩm</th>
+        <th>Giá sản phẩm</th>
+        <th>Hình ảnh</th>
+        <th>Thao tác</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.ProductId }}</td>
+        <td>{{ product.ProductName }}</td>
+        <td>{{ product.Price }}</td>
+        <td><img [src]="product.Image" [alt]="product.ProductName" /></td>
+        <td>
+          <button
+            type="button"
+            class="details-link"
+            (click)="viewDetail(product)"
+            title="Click here to view detail"
+          >
+            Details
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>

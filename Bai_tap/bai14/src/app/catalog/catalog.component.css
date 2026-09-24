@@ -1,0 +1,40 @@
+.catalog-page {
+  width: 365px;
+  margin: 0 auto;
+  font-family: "Times New Roman", serif;
+}
+
+h1 {
+  display: none;
+}
+
+.category-card {
+  margin-bottom: 5px;
+}
+
+/* Giữ đúng kiểu table HTML cơ bản */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border: 1px solid gray;
+}
+
+th,
+td {
+  border: 1px solid gray;
+  padding: 1px 3px;
+  text-align: left;
+  font-weight: normal;
+}
+
+/* Hàng sản phẩm cao chủ yếu do ảnh */
+.product-table td {
+  height: 58px;
+}
+
+img {
+  width: 50px;
+  height: 55px;
+  object-fit: contain;
+}

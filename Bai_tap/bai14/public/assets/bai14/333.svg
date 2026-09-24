@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" role="img" aria-labelledby="title">
+  <title id="title">Bia 333</title>
+  <rect width="120" height="160" rx="12" fill="#f1f5f9"/>
+  <rect x="35" y="18" width="50" height="132" rx="9" fill="#f8fafc" stroke="#d4a017" stroke-width="4"/>
+  <rect x="39" y="55" width="42" height="55" rx="4" fill="#dc2626"/>
+  <text x="60" y="91" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#fff">333</text>
+</svg>

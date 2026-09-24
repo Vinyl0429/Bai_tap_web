@@ -1,0 +1,15 @@
+import { NgModule, provideBrowserGlobalErrorListeners } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+
+import { AppRoutingModule } from './app-routing-module';
+import { App } from './app';
+import { CustomerGroupComponent } from './customer-group/customer-group.component';
+
+@NgModule({
+  declarations: [App, CustomerGroupComponent],
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [provideBrowserGlobalErrorListeners(), provideHttpClient(withInterceptorsFromDi())],
+  bootstrap: [App],
+})
+export class AppModule {}

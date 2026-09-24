@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" role="img" aria-labelledby="title">
+  <title id="title">Bia Sài Gòn</title>
+  <rect width="120" height="160" rx="12" fill="#f1f5f9"/>
+  <rect x="35" y="18" width="50" height="132" rx="9" fill="#0f766e" stroke="#d4a017" stroke-width="4"/>
+  <circle cx="60" cy="82" r="28" fill="#fff" stroke="#d4a017" stroke-width="3"/>
+  <text x="60" y="79" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#0f766e">BIA</text>
+  <text x="60" y="94" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#0f766e">SÀI GÒN</text>
+</svg>

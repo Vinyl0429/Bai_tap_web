@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" role="img" aria-labelledby="title">
+  <title id="title">Heineken</title>
+  <rect width="120" height="160" rx="12" fill="#f1f5f9"/>
+  <path d="M45 18h30v22l10 18v80c0 7-5 12-12 12H47c-7 0-12-5-12-12V58l10-18z" fill="#08783e"/>
+  <rect x="39" y="70" width="42" height="42" rx="4" fill="#fff"/>
+  <text x="60" y="88" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#08783e">HEINEKEN</text>
+  <text x="60" y="104" text-anchor="middle" font-family="Arial" font-size="18" fill="#e11d48">★</text>
+</svg>

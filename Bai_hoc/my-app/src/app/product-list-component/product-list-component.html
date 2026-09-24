@@ -1,0 +1,22 @@
+<p>product-list-component works!</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @for (product of products; track product.id) {
+        <tr [class.price-negative]="product.price < 0">
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.price }}</td>
+            <td><img [src]="product.image" [alt]="product.name" width="100" height="100"></td>
+        </tr>
+    }
+    </tbody>
+</table>
